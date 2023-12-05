@@ -1,5 +1,3 @@
-package de.fhdw.prg1.bfwc423a.kru.tutorium20231205;
-
 import java.util.Arrays;
 
 public class Methoden {
