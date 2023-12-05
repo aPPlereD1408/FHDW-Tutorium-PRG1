@@ -1,5 +1,3 @@
-package de.fhdw.prg1.bfwc423a.kru.tutorium20231205;
-
 public class ForEach {
     public static void main(String[] args) {
         int[] test = {1, 2, 3, 4, 5, 6, 7, 8, 9};
