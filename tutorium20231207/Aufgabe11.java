@@ -1,5 +1,3 @@
-package de.fhdw.prg1.bfwc423a.kru.tutorium20231205.aufgaben;
-
 public class Aufgabe11 {
     public static void main(String[] args) {
         triangle(2);
