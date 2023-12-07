@@ -4,12 +4,12 @@ public class BubbleSort {
     // Übung: Grundgedanken
     public static void main(String[] args) {
         int[] unsortedArray = {9, 1, 8, 2, 7, 3, 6, 4, 5};
-        // Aufgabe 1:
+        // Aufgabe 6:
         // Schreibe eine Bubblesort-Methode (ohne Rückgabewert), die ein Integer-Array als Parameter übermittelt bekommt.
         bubbleSort(unsortedArray);
 
         int[] unsortedArray2 = {9, 1, 8, 2, 7, 3, 6, 4, 5};
-        // Aufgabe 2:
+        // Aufgabe 7:
         // Schreibe eine Bubblesort-Methode (mit Rückgabewert), die ein Integer-Array als Parameter übermittelt bekommt.
         System.out.println(Arrays.toString(bubbleSortReturn(unsortedArray2)));
         // Mit Arrays.toCopy()
@@ -17,7 +17,7 @@ public class BubbleSort {
         System.out.println(Arrays.toString(bubbleSortReturn2(unsortedArray3)));
         System.out.println(Arrays.toString(unsortedArray3));
 
-        // Aufgabe 3:
+        // Aufgabe 8:
         // Gegeben ist ein unsortiertes int-Array und eine int-Variabel sumTarget.
         // Gebt die Elemente aus dem Array zurück, die die sumTarget ergeben.
         int[] ungeradeZahlen = {0, 9, 3, 1, 5, 7, 2, 6, 4, 8};
@@ -31,7 +31,7 @@ public class BubbleSort {
     }
 
     /** Methoden **/
-    // Aufgabe 1
+    // Aufgabe 6
     static void bubbleSort(int[] unsortedArray) {
         for (int i = 0; i < unsortedArray.length; i++) {
             for (int j = 0; j < unsortedArray.length - 1 - i; j++) {
@@ -45,7 +45,7 @@ public class BubbleSort {
         System.out.println(Arrays.toString(unsortedArray));
     }
 
-    // Aufgabe 2
+    // Aufgabe 7
     static int[] bubbleSortReturn(int[] unsortedArray) {
         for (int i = 0; i < unsortedArray.length; i++) {
             for (int j = 0; j < unsortedArray.length - 1 - i; j++) {
@@ -74,7 +74,7 @@ public class BubbleSort {
     }
 
     /* Elementensumme eines Arrays */
-    // Aufgabe 3
+    // Aufgabe 8
     static int[] sumTwoElements(int[] array, int targetSum) {
         int pointerRight = array.length - 1;
         int pointerLeft = 0;
