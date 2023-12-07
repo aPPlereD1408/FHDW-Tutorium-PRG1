@@ -111,7 +111,7 @@ class Rechner {
                 System.out.println(addition(zahl1, zahl2));
                 break;
             case '-':
-                System.out.println(subration(zahl1, zahl2));
+                System.out.println(subtraktion(zahl1, zahl2));
                 break;
             case '*':
                 System.out.println(multiplikation(zahl1, zahl2));
@@ -130,7 +130,7 @@ class Rechner {
         return zahl1 + zahl2;
     }
 
-    static double subration(double zahl1, double zahl2) {
+    static double subtraktion(double zahl1, double zahl2) {
         return zahl1 - zahl2;
     }
 
