@@ -1,5 +1,3 @@
-package de.fhdw.prg1.bfwc423a.kru.tutorium20231205;
-
 public class Dreieck {
     public static void main(String[] args) {
         int n = -10;
